@@ -1,10 +1,17 @@
 import java.util.*;
 
-public class GameHost {
+public class GameHost { // класс ведущего
 
     int gameHostChoice;
-//    public GameHost;
 
+
+    /**
+     * Функция хода ведущего, возвращает номер открываемой им двери
+     * @param pChoice - начальный выбор игрока
+     * @param wDoor - номер двери-победителя
+     * @param array - массив-схема дверей
+     * @return - номер открываемой ведущим двери
+     */
     public int choice(int pChoice, int wDoor, int[] array) {
         int result = 0;
         int hostChoice;
