@@ -1,14 +1,12 @@
 import java.util.*;
 
-import static java.lang.Math.random;
-
 public class Main {
 
     static int gameTimes = 1000; // количество игр
     static double percentages_1; // процентное соотношение побед при настаивании игроком на первом выборе
     static double percentages_2; // процентное соотношение побед при смене выбора
     static int victories_1; // количество побед при настаивании игроком на первом выборе
-    static int victories_2; // количество побед при  смене выбора
+    static int victories_2; // количество побед при смене выбора
     static HashMap<Integer,String> mapRes = new HashMap<>();
     static HashMap<Integer,String> mapRes_1 = new HashMap<>();
     static HashMap<Integer,String> mapRes_2 = new HashMap<>();
@@ -52,7 +50,6 @@ public class Main {
         System.out.println();
         System.out.println("Режим 2 (изменить решение): ");
         showStatistics(mapRes_2);
-
          */
     }
 
